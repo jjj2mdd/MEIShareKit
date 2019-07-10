@@ -1,0 +1,2 @@
+# MEIShareKit
+MEIShareKit是移动中台项目iOS端实现分享功能的基础组件。
