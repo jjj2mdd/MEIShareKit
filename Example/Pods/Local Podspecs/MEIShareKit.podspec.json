@@ -1,0 +1,36 @@
+{
+  "name": "MEIShareKit",
+  "version": "0.1.1",
+  "summary": "MEIShareKit是移动中台项目iOS端实现分享功能的基础组件。",
+  "description": "目前已实现QQ，微信，微博三个平台的分享，后续会根据需求反馈集成其他平台以及扩展已有平台下新的分享功能。",
+  "homepage": "http://10.25.81.246/mobile/MEIShareKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "maochaolong041": "maochaolong041@pingan.com.cn"
+  },
+  "source": {
+    "git": "http://10.25.81.246/mobile/MEIShareKit.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "MEIShareKit/Classes/Core/*"
+    },
+    {
+      "name": "UI",
+      "source_files": "MEIShareKit/Classes/UI/*",
+      "dependencies": {
+        "MEIShareKit/Core": [
+
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module Pods_MEIShareKit_Tests {
+  umbrella header "Pods-MEIShareKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

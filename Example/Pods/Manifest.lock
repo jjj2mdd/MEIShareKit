@@ -1,0 +1,21 @@
+PODS:
+  - MEIShareKit (0.1.1):
+    - MEIShareKit/Core (= 0.1.1)
+    - MEIShareKit/UI (= 0.1.1)
+  - MEIShareKit/Core (0.1.1)
+  - MEIShareKit/UI (0.1.1):
+    - MEIShareKit/Core
+
+DEPENDENCIES:
+  - MEIShareKit (from `../`)
+
+EXTERNAL SOURCES:
+  MEIShareKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MEIShareKit: 2026c9fdbea67c96c40980bd73aafe19218b325c
+
+PODFILE CHECKSUM: 628cfab1dab2975bf7d8f7f804a49126d0396237
+
+COCOAPODS: 1.6.0

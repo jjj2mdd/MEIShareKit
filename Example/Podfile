@@ -1,0 +1,12 @@
+platform :ios, 10.0
+use_frameworks!
+
+target 'MEIShareKit_Example' do
+  pod 'MEIShareKit', :path => '../'
+
+  target 'MEIShareKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

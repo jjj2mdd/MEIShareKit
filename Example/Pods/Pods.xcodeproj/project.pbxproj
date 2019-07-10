@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1139F692507D4BEC658D768A3E021FB7 /* MEIShareKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DE133F7DA92FACC4A3AEC64AA0F156 /* MEIShareKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1267C044B82451EF625B5981868DF9F8 /* ShareAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B12A3E3C7D0D9BA11F312494F94E69 /* ShareAsset.swift */; };
+		1DA9FB6891AE8562AD65088D7AD2AED8 /* Pods-MEIShareKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B845F6391401991A948440A78858742 /* Pods-MEIShareKit_Example-dummy.m */; };
+		47332D80339C72D3EAEFAD827CBE4792 /* UIApplication_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0653713A059A9AB6987AA1CCB2527B84 /* UIApplication_Extensions.swift */; };
+		4CEFBBB7E956176C9B3CAF304D54EAD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		5E7E075D03C0FE4D80998639B356D4DB /* ShareManager_Weibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F65E6D86904ED60CFE4B2DD4EA9726 /* ShareManager_Weibo.swift */; };
+		65769D7A1686D4B20B35E4CB2D84B30E /* UIImage_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AA39901CD9400BD47C67A446AFC19 /* UIImage_Extensions.swift */; };
+		6FFA3B202F434B642BC0E31EFC81D22B /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EE52566D29301A9A1E616BA3D084B /* ShareManager.swift */; };
+		907881A8EDC637BFE8CADC9C61F66C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9EE2079C1AA6E33F62AACFCBE64E26EF /* ShareManagerUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8BFCD96738387752C9FC6B3A2CFD5 /* ShareManagerUIDelegate.swift */; };
+		AF5E33CBEA578662654ABA4D9A20F37D /* URL_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8BF8FC7C99974D5181781D9E41227D /* URL_Extensions.swift */; };
+		B72AE4315BE5840F24DDB26FC653807F /* ShareManager_QQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839EF988D4DB711222959DAC79E191E /* ShareManager_QQ.swift */; };
+		B7ED4EB43265AC7B229B7E634F023388 /* String_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA685C955458C853654E935B825E46 /* String_Extensions.swift */; };
+		BAB501EEBAE91B660BB9B4F8FBBA5679 /* UIPasteboard_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497124A0F7AB3E55EFDF7D0A88FC9E78 /* UIPasteboard_Extensions.swift */; };
+		BFC87EB18EE15B6F2C6E87572D28C874 /* Pods-MEIShareKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 095082E59F7DE46FB39CB7BA4656739E /* Pods-MEIShareKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0356226612D9965C2549B1DA7CBC1AE /* MEIShareKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BF485B2C16EFAEB7560E72F7C5C4AA /* MEIShareKit-dummy.m */; };
+		C56EB8700E7A6A8A892922B89F64A6DF /* ShareManager_WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9378CD59BE5F26B53E16BBBD74405 /* ShareManager_WeChat.swift */; };
+		C6472593CEB479093351769D5B41FBDD /* Pods-MEIShareKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C3ACDD222B372F37A9C88E491F64F3 /* Pods-MEIShareKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C896C07B74BA95C1E13C01B0FD416A1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CEB8061CDB1BC1247CC603A44483F033 /* Pods-MEIShareKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FC9CF33E6B85B70CB37F3A7AF12907 /* Pods-MEIShareKit_Tests-dummy.m */; };
+		D1D5153DA650AE89C9AE52B81D23AD45 /* ShareManager_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344BC9D0F75BEE2EB7A6E2E63BEDF95E /* ShareManager_UI.swift */; };
+		FE3F9CCA4F231AEC28931D211CEC57D9 /* ShareSceneCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5230672FA69F52817FD4BA7F8CB538E5 /* ShareSceneCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		375B06DEEA266C082B2D0C074401EBFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33C553408A991821BA3D600FFFC70924;
+			remoteInfo = "Pods-MEIShareKit_Example";
+		};
+		BD03FA1D929D83F25646B30224CA3AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A92D99A4BCC5B3737864B304FF3028A;
+			remoteInfo = MEIShareKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02902DF8D86FE76DE37A53BFC1F753F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		049EE52566D29301A9A1E616BA3D084B /* ShareManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShareManager.swift; path = MEIShareKit/Classes/Core/ShareManager.swift; sourceTree = "<group>"; };
+		0653713A059A9AB6987AA1CCB2527B84 /* UIApplication_Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIApplication_Extensions.swift; path = MEIShareKit/Classes/Core/UIApplication_Extensions.swift; sourceTree = "<group>"; };
+		095082E59F7DE46FB39CB7BA4656739E /* Pods-MEIShareKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MEIShareKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		10EAC433A585AC8E79F069581CE6AA17 /* MEIShareKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MEIShareKit-prefix.pch"; sourceTree = "<group>"; };
+		17DE133F7DA92FACC4A3AEC64AA0F156 /* MEIShareKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MEIShareKit-umbrella.h"; sourceTree = "<group>"; };
+		2B8BF8FC7C99974D5181781D9E41227D /* URL_Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URL_Extensions.swift; path = MEIShareKit/Classes/Core/URL_Extensions.swift; sourceTree = "<group>"; };
+		2E4CB25317F3FEB301BE82E82493B92E /* Pods_MEIShareKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEIShareKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		344BC9D0F75BEE2EB7A6E2E63BEDF95E /* ShareManager_UI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShareManager_UI.swift; path = MEIShareKit/Classes/UI/ShareManager_UI.swift; sourceTree = "<group>"; };
+		39D511B2E4DB29556B5A009D14F8ED96 /* MEIShareKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MEIShareKit.xcconfig; sourceTree = "<group>"; };
+		3BB9378CD59BE5F26B53E16BBBD74405 /* ShareManager_WeChat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShareManager_WeChat.swift; path = MEIShareKit/Classes/Core/ShareManager_WeChat.swift; sourceTree = "<group>"; };
+		4304B71423E06FAEB429AE70CC98A215 /* MEIShareKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MEIShareKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		497124A0F7AB3E55EFDF7D0A88FC9E78 /* UIPasteboard_Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIPasteboard_Extensions.swift; path = MEIShareKit/Classes/Core/UIPasteboard_Extensions.swift; sourceTree = "<group>"; };
+		4D90D62F858180CDE7CC7DCB1EAB6042 /* Pods-MEIShareKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MEIShareKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5230672FA69F52817FD4BA7F8CB538E5 /* ShareSceneCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShareSceneCollectionViewCell.swift; path = MEIShareKit/Classes/UI/ShareSceneCollectionViewCell.swift; sourceTree = "<group>"; };
+		53C9A6BC8E268259BDA373D341E13FDE /* Pods_MEIShareKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEIShareKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FE9240A48FBD7DCDFF31B4DE267984 /* Pods-MEIShareKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MEIShareKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		5E2D0D4DE9A6FEF47B31FA0BB5997A9B /* Pods-MEIShareKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MEIShareKit_Example.modulemap"; sourceTree = "<group>"; };
+		63D213F893F6E1785E7EA9F4440144F7 /* Pods-MEIShareKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MEIShareKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CAA685C955458C853654E935B825E46 /* String_Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String_Extensions.swift; path = MEIShareKit/Classes/Core/String_Extensions.swift; sourceTree = "<group>"; };
+		72C94E42412E3E05D8069FEAC4C073CB /* MEIShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MEIShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		740CCBB1FBE524B522D41AEB39111905 /* Pods-MEIShareKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEIShareKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		77D0D5C924A148D027C79922FE1DB7E2 /* Pods-MEIShareKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MEIShareKit_Example-Info.plist"; sourceTree = "<group>"; };
+		8681B785A639BFA7CAAF3FF0BFF49849 /* MEIShareKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MEIShareKit.modulemap; sourceTree = "<group>"; };
+		89C3ACDD222B372F37A9C88E491F64F3 /* Pods-MEIShareKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MEIShareKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		89F65E6D86904ED60CFE4B2DD4EA9726 /* ShareManager_Weibo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShareManager_Weibo.swift; path = MEIShareKit/Classes/Core/ShareManager_Weibo.swift; sourceTree = "<group>"; };
+		8B845F6391401991A948440A78858742 /* Pods-MEIShareKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MEIShareKit_Example-dummy.m"; sourceTree = "<group>"; };
+		919E8CF90F04681A832514D0D613D9F7 /* MEIShareKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MEIShareKit-Info.plist"; sourceTree = "<group>"; };
+		96FC9CF33E6B85B70CB37F3A7AF12907 /* Pods-MEIShareKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MEIShareKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		98DF073FE79D00F12ADCF8585CD3AA74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9A7AA39901CD9400BD47C67A446AFC19 /* UIImage_Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage_Extensions.swift; path = MEIShareKit/Classes/Core/UIImage_Extensions.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8F0171031DDC315B6D28871E5EE0942 /* Pods-MEIShareKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MEIShareKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B22A6937F836379E9378F777E6748067 /* Pods-MEIShareKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MEIShareKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D02A4921FF45DC4BBE9E6EBDB4C38519 /* Pods-MEIShareKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEIShareKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEE8BFCD96738387752C9FC6B3A2CFD5 /* ShareManagerUIDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShareManagerUIDelegate.swift; path = MEIShareKit/Classes/UI/ShareManagerUIDelegate.swift; sourceTree = "<group>"; };
+		E3B12A3E3C7D0D9BA11F312494F94E69 /* ShareAsset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShareAsset.swift; path = MEIShareKit/Classes/Core/ShareAsset.swift; sourceTree = "<group>"; };
+		E608A0CB5CEAA74DC1E28CCB9F4AEB5D /* Pods-MEIShareKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEIShareKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E839EF988D4DB711222959DAC79E191E /* ShareManager_QQ.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShareManager_QQ.swift; path = MEIShareKit/Classes/Core/ShareManager_QQ.swift; sourceTree = "<group>"; };
+		EA9B2F75D3148BCF94A0B4BDE6290207 /* Pods-MEIShareKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEIShareKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F6BF485B2C16EFAEB7560E72F7C5C4AA /* MEIShareKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MEIShareKit-dummy.m"; sourceTree = "<group>"; };
+		F8E003E7E5F69F29CB10A0A74951430A /* Pods-MEIShareKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MEIShareKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD011019BAFDD8FB6EBC36ED92DB252C /* Pods-MEIShareKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MEIShareKit_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA35EE0B6ABDEC67FB8E8CFD09ED6685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C896C07B74BA95C1E13C01B0FD416A1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD10AB3B954A44AA3BE59F94D6ABD801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEFBBB7E956176C9B3CAF304D54EAD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8BD5BEF7FC5274618DD6A2C610E444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907881A8EDC637BFE8CADC9C61F66C96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00BA55DB568179BB80D31DB43AF0BC8F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E3B12A3E3C7D0D9BA11F312494F94E69 /* ShareAsset.swift */,
+				049EE52566D29301A9A1E616BA3D084B /* ShareManager.swift */,
+				E839EF988D4DB711222959DAC79E191E /* ShareManager_QQ.swift */,
+				3BB9378CD59BE5F26B53E16BBBD74405 /* ShareManager_WeChat.swift */,
+				89F65E6D86904ED60CFE4B2DD4EA9726 /* ShareManager_Weibo.swift */,
+				6CAA685C955458C853654E935B825E46 /* String_Extensions.swift */,
+				0653713A059A9AB6987AA1CCB2527B84 /* UIApplication_Extensions.swift */,
+				9A7AA39901CD9400BD47C67A446AFC19 /* UIImage_Extensions.swift */,
+				497124A0F7AB3E55EFDF7D0A88FC9E78 /* UIPasteboard_Extensions.swift */,
+				2B8BF8FC7C99974D5181781D9E41227D /* URL_Extensions.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		44F55A1135FDA8C29FFC4AE7E9AA9AD3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				344BC9D0F75BEE2EB7A6E2E63BEDF95E /* ShareManager_UI.swift */,
+				DEE8BFCD96738387752C9FC6B3A2CFD5 /* ShareManagerUIDelegate.swift */,
+				5230672FA69F52817FD4BA7F8CB538E5 /* ShareSceneCollectionViewCell.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		5F702767FD9389D6A6F9B1C7C95DFE80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8681B785A639BFA7CAAF3FF0BFF49849 /* MEIShareKit.modulemap */,
+				39D511B2E4DB29556B5A009D14F8ED96 /* MEIShareKit.xcconfig */,
+				F6BF485B2C16EFAEB7560E72F7C5C4AA /* MEIShareKit-dummy.m */,
+				919E8CF90F04681A832514D0D613D9F7 /* MEIShareKit-Info.plist */,
+				10EAC433A585AC8E79F069581CE6AA17 /* MEIShareKit-prefix.pch */,
+				17DE133F7DA92FACC4A3AEC64AA0F156 /* MEIShareKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MEIShareKit";
+			sourceTree = "<group>";
+		};
+		621B3DB92481658BE56764E8DF5B760C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				98DF073FE79D00F12ADCF8585CD3AA74 /* LICENSE */,
+				4304B71423E06FAEB429AE70CC98A215 /* MEIShareKit.podspec */,
+				02902DF8D86FE76DE37A53BFC1F753F7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6C1FAD0A3EC7434398FCB7D3740BBAC2 /* MEIShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				00BA55DB568179BB80D31DB43AF0BC8F /* Core */,
+				621B3DB92481658BE56764E8DF5B760C /* Pod */,
+				5F702767FD9389D6A6F9B1C7C95DFE80 /* Support Files */,
+				44F55A1135FDA8C29FFC4AE7E9AA9AD3 /* UI */,
+			);
+			name = MEIShareKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7373F269857FCDDDA9D25CB94550978E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72C94E42412E3E05D8069FEAC4C073CB /* MEIShareKit.framework */,
+				2E4CB25317F3FEB301BE82E82493B92E /* Pods_MEIShareKit_Example.framework */,
+				53C9A6BC8E268259BDA373D341E13FDE /* Pods_MEIShareKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A033B46CA59066B236A218DBBFAED1A1 /* Pods-MEIShareKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FD011019BAFDD8FB6EBC36ED92DB252C /* Pods-MEIShareKit_Tests.modulemap */,
+				F8E003E7E5F69F29CB10A0A74951430A /* Pods-MEIShareKit_Tests-acknowledgements.markdown */,
+				A8F0171031DDC315B6D28871E5EE0942 /* Pods-MEIShareKit_Tests-acknowledgements.plist */,
+				96FC9CF33E6B85B70CB37F3A7AF12907 /* Pods-MEIShareKit_Tests-dummy.m */,
+				56FE9240A48FBD7DCDFF31B4DE267984 /* Pods-MEIShareKit_Tests-Info.plist */,
+				095082E59F7DE46FB39CB7BA4656739E /* Pods-MEIShareKit_Tests-umbrella.h */,
+				D02A4921FF45DC4BBE9E6EBDB4C38519 /* Pods-MEIShareKit_Tests.debug.xcconfig */,
+				E608A0CB5CEAA74DC1E28CCB9F4AEB5D /* Pods-MEIShareKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-MEIShareKit_Tests";
+			path = "Target Support Files/Pods-MEIShareKit_Tests";
+			sourceTree = "<group>";
+		};
+		CDE3148FC3744AF18C07CFBE54710236 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C1FAD0A3EC7434398FCB7D3740BBAC2 /* MEIShareKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CDE3148FC3744AF18C07CFBE54710236 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7373F269857FCDDDA9D25CB94550978E /* Products */,
+				D3D6D21D43CB7E5D7DE9CFBA7A88C3E7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3D6D21D43CB7E5D7DE9CFBA7A88C3E7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB9393386C721A5D2CD3A222B2698F /* Pods-MEIShareKit_Example */,
+				A033B46CA59066B236A218DBBFAED1A1 /* Pods-MEIShareKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D9DB9393386C721A5D2CD3A222B2698F /* Pods-MEIShareKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5E2D0D4DE9A6FEF47B31FA0BB5997A9B /* Pods-MEIShareKit_Example.modulemap */,
+				B22A6937F836379E9378F777E6748067 /* Pods-MEIShareKit_Example-acknowledgements.markdown */,
+				63D213F893F6E1785E7EA9F4440144F7 /* Pods-MEIShareKit_Example-acknowledgements.plist */,
+				8B845F6391401991A948440A78858742 /* Pods-MEIShareKit_Example-dummy.m */,
+				4D90D62F858180CDE7CC7DCB1EAB6042 /* Pods-MEIShareKit_Example-frameworks.sh */,
+				77D0D5C924A148D027C79922FE1DB7E2 /* Pods-MEIShareKit_Example-Info.plist */,
+				89C3ACDD222B372F37A9C88E491F64F3 /* Pods-MEIShareKit_Example-umbrella.h */,
+				740CCBB1FBE524B522D41AEB39111905 /* Pods-MEIShareKit_Example.debug.xcconfig */,
+				EA9B2F75D3148BCF94A0B4BDE6290207 /* Pods-MEIShareKit_Example.release.xcconfig */,
+			);
+			name = "Pods-MEIShareKit_Example";
+			path = "Target Support Files/Pods-MEIShareKit_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B525217DC695A988549AFE7C8D8E814 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6472593CEB479093351769D5B41FBDD /* Pods-MEIShareKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80E0E69CA77198C754D21D40EA442DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1139F692507D4BEC658D768A3E021FB7 /* MEIShareKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6F2958EB84B2BFE6D2197B2217F48A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC87EB18EE15B6F2C6E87572D28C874 /* Pods-MEIShareKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33C553408A991821BA3D600FFFC70924 /* Pods-MEIShareKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7998C855F64F853A78117B6B82AC10 /* Build configuration list for PBXNativeTarget "Pods-MEIShareKit_Example" */;
+			buildPhases = (
+				5B525217DC695A988549AFE7C8D8E814 /* Headers */,
+				74CA596C4A4E8C3C1081D88AF0F0E2AA /* Sources */,
+				CD10AB3B954A44AA3BE59F94D6ABD801 /* Frameworks */,
+				077218FE8336855C2B0F1FDF31102DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FE54E39F814605792845BA28B3FF6A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-MEIShareKit_Example";
+			productName = "Pods-MEIShareKit_Example";
+			productReference = 2E4CB25317F3FEB301BE82E82493B92E /* Pods_MEIShareKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		688DF5CC53658C2C657AE2933A82B733 /* Pods-MEIShareKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB42635E324F1736DAFBB505E2C496A3 /* Build configuration list for PBXNativeTarget "Pods-MEIShareKit_Tests" */;
+			buildPhases = (
+				AE6F2958EB84B2BFE6D2197B2217F48A /* Headers */,
+				85409F78C0CD4754B0DC70E7917A725E /* Sources */,
+				BA35EE0B6ABDEC67FB8E8CFD09ED6685 /* Frameworks */,
+				BA17EFB90629433BCC257261965EA3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E173DD4D3F35FDDCADB379B84B3AA5 /* PBXTargetDependency */,
+			);
+			name = "Pods-MEIShareKit_Tests";
+			productName = "Pods-MEIShareKit_Tests";
+			productReference = 53C9A6BC8E268259BDA373D341E13FDE /* Pods_MEIShareKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A92D99A4BCC5B3737864B304FF3028A /* MEIShareKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE2667D8F926047FB7C4187C4A558A2 /* Build configuration list for PBXNativeTarget "MEIShareKit" */;
+			buildPhases = (
+				A80E0E69CA77198C754D21D40EA442DC /* Headers */,
+				3D606DE8D79B1DDCB975B0C265E21E32 /* Sources */,
+				EC8BD5BEF7FC5274618DD6A2C610E444 /* Frameworks */,
+				D80078B63906D569EDDD72638F8B8308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEIShareKit;
+			productName = MEIShareKit;
+			productReference = 72C94E42412E3E05D8069FEAC4C073CB /* MEIShareKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					7A92D99A4BCC5B3737864B304FF3028A = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7373F269857FCDDDA9D25CB94550978E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A92D99A4BCC5B3737864B304FF3028A /* MEIShareKit */,
+				33C553408A991821BA3D600FFFC70924 /* Pods-MEIShareKit_Example */,
+				688DF5CC53658C2C657AE2933A82B733 /* Pods-MEIShareKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077218FE8336855C2B0F1FDF31102DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA17EFB90629433BCC257261965EA3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80078B63906D569EDDD72638F8B8308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D606DE8D79B1DDCB975B0C265E21E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0356226612D9965C2549B1DA7CBC1AE /* MEIShareKit-dummy.m in Sources */,
+				1267C044B82451EF625B5981868DF9F8 /* ShareAsset.swift in Sources */,
+				6FFA3B202F434B642BC0E31EFC81D22B /* ShareManager.swift in Sources */,
+				B72AE4315BE5840F24DDB26FC653807F /* ShareManager_QQ.swift in Sources */,
+				D1D5153DA650AE89C9AE52B81D23AD45 /* ShareManager_UI.swift in Sources */,
+				C56EB8700E7A6A8A892922B89F64A6DF /* ShareManager_WeChat.swift in Sources */,
+				5E7E075D03C0FE4D80998639B356D4DB /* ShareManager_Weibo.swift in Sources */,
+				9EE2079C1AA6E33F62AACFCBE64E26EF /* ShareManagerUIDelegate.swift in Sources */,
+				FE3F9CCA4F231AEC28931D211CEC57D9 /* ShareSceneCollectionViewCell.swift in Sources */,
+				B7ED4EB43265AC7B229B7E634F023388 /* String_Extensions.swift in Sources */,
+				47332D80339C72D3EAEFAD827CBE4792 /* UIApplication_Extensions.swift in Sources */,
+				65769D7A1686D4B20B35E4CB2D84B30E /* UIImage_Extensions.swift in Sources */,
+				BAB501EEBAE91B660BB9B4F8FBBA5679 /* UIPasteboard_Extensions.swift in Sources */,
+				AF5E33CBEA578662654ABA4D9A20F37D /* URL_Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CA596C4A4E8C3C1081D88AF0F0E2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA9FB6891AE8562AD65088D7AD2AED8 /* Pods-MEIShareKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85409F78C0CD4754B0DC70E7917A725E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB8061CDB1BC1247CC603A44483F033 /* Pods-MEIShareKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FE54E39F814605792845BA28B3FF6A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MEIShareKit;
+			target = 7A92D99A4BCC5B3737864B304FF3028A /* MEIShareKit */;
+			targetProxy = BD03FA1D929D83F25646B30224CA3AA4 /* PBXContainerItemProxy */;
+		};
+		A4E173DD4D3F35FDDCADB379B84B3AA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MEIShareKit_Example";
+			target = 33C553408A991821BA3D600FFFC70924 /* Pods-MEIShareKit_Example */;
+			targetProxy = 375B06DEEA266C082B2D0C074401EBFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24D239BAFE5D700BC161AD1B7F10A148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D511B2E4DB29556B5A009D14F8ED96 /* MEIShareKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MEIShareKit/MEIShareKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MEIShareKit/MEIShareKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MEIShareKit/MEIShareKit.modulemap";
+				PRODUCT_MODULE_NAME = MEIShareKit;
+				PRODUCT_NAME = MEIShareKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5BD1CEDD46EA03D6D4F0559F5355F82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D511B2E4DB29556B5A009D14F8ED96 /* MEIShareKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MEIShareKit/MEIShareKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MEIShareKit/MEIShareKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MEIShareKit/MEIShareKit.modulemap";
+				PRODUCT_MODULE_NAME = MEIShareKit;
+				PRODUCT_NAME = MEIShareKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61750D60505D48406CAC90402A2FAC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9B2F75D3148BCF94A0B4BDE6290207 /* Pods-MEIShareKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MEIShareKit_Example/Pods-MEIShareKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MEIShareKit_Example/Pods-MEIShareKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6593AEA85C74CAD3033D74CAEC5D1DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E608A0CB5CEAA74DC1E28CCB9F4AEB5D /* Pods-MEIShareKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MEIShareKit_Tests/Pods-MEIShareKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MEIShareKit_Tests/Pods-MEIShareKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECFF7AC4F3556624C3C6B1FABCFC4F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740CCBB1FBE524B522D41AEB39111905 /* Pods-MEIShareKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MEIShareKit_Example/Pods-MEIShareKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MEIShareKit_Example/Pods-MEIShareKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB070F7A7272421342BDD4A78D592C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02A4921FF45DC4BBE9E6EBDB4C38519 /* Pods-MEIShareKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MEIShareKit_Tests/Pods-MEIShareKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MEIShareKit_Tests/Pods-MEIShareKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7998C855F64F853A78117B6B82AC10 /* Build configuration list for PBXNativeTarget "Pods-MEIShareKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFF7AC4F3556624C3C6B1FABCFC4F4B /* Debug */,
+				61750D60505D48406CAC90402A2FAC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE2667D8F926047FB7C4187C4A558A2 /* Build configuration list for PBXNativeTarget "MEIShareKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D239BAFE5D700BC161AD1B7F10A148 /* Debug */,
+				5BD1CEDD46EA03D6D4F0559F5355F82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB42635E324F1736DAFBB505E2C496A3 /* Build configuration list for PBXNativeTarget "Pods-MEIShareKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB070F7A7272421342BDD4A78D592C7E /* Debug */,
+				6593AEA85C74CAD3033D74CAEC5D1DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module MEIShareKit {
+  umbrella header "MEIShareKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
